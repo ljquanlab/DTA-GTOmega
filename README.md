@@ -15,3 +15,13 @@ Due to the limit of github, we will upload the preprocessed features to the driv
 
 # Package
 Please Check config/Environment.ipynb
+
+# Reproduction
+```commandline
+python scripts/davisSerial.py
+```
+
+or Retrain the model:
+```commandline
+python scripts/davis.py
+```
