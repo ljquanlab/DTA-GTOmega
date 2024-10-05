@@ -1,0 +1,1 @@
+{"learning_rate": 0.0001, "dim_drug": 78, "dim_protein": 384, "hidd_dim": 128, "edge_dim": 128, "head": 4, "out_features": 64, "head_out_features": [64, 64, 64, 64], "heads": [4, 4, 4, 4], "kge_dim": 256, "epo_num": 50, "patient": 30, "workers": 6, "batch_size": 128, "seed": 0, "stand_label": false}
