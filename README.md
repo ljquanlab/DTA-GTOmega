@@ -23,7 +23,7 @@ Davis_omega:
 # Environment
 - cuda:12.2
 - memory > 50G
-- device: Tesla V100 32GB/ Tesla A100 32GB
+- device: Tesla V100 32GB/ Tesla A100 40GB
 
 # Package
 Please Check config/Environment.ipynb
