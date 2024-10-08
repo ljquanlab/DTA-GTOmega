@@ -32,6 +32,9 @@ BindingDB_omega: Only Node features (390 MB)
 Please Check config/Environment.ipynb
 
 # Reproduction
+1. Change the 'split_strategy' in the following scripts to reproduce the results.
+
+2. Saved model for davis have been uploaded in saved_pth/Davis_repr
 ```commandline
 python scripts/davisSerial.py
 ```
@@ -48,4 +51,5 @@ python scripts/bindingDBSerial.py
 or Retrain the model:
 ```commandline
 python scripts/davis.py
+python bindingDB.py
 ```
