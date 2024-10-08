@@ -14,11 +14,14 @@ mkdir data/Davis_omega
 ```
 
 Then please check https://github.com/yelujiang/OmegaFeatures to generate features.
-Or we upload the preprocessed features to the drive.
+Or we upload the preprocessed features to the drive. 
 
-Davis_omega:
+Davis_omega: Node features + edges features (40 GB), here edges features are not needed
 - https://pan.baidu.com/s/1BBbETPfRAmr6c4QY8waLJA
-- password: CUTE 
+- password: CUTE
+
+BindingDB_omega: Only Node features (390 MB)
+- https://drive.google.com/file/d/1yJohLt2_Fot9IwzLJYpL5TI4cQ3-q2z3/view?usp=drive_link
 
 # Environment
 - cuda:12.2
