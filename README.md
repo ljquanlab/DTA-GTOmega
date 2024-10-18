@@ -51,5 +51,5 @@ python scripts/bindingDBSerial.py
 or Retrain the model:
 ```commandline
 python scripts/davis.py
-python bindingDB.py
+python scripts/bindingDB.py
 ```
