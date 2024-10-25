@@ -23,9 +23,9 @@ Davis_omega: Node features + edges features (40 GB), here edges features are not
 File size can be reduced to less than 1GB by removing edge features, the following is jupyter code
 ```commandline
 !unzip Davis_omega
-!cd Davis_omega/omega_2
 import pickle as pkl
 import os
+os.chdir('Davis_omega/omega_2')
 for fi in os.listdir('./'):
   with open(fi, 'rb') as f:
     o = pkl.load(f)
