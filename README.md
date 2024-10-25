@@ -58,7 +58,7 @@ python scripts/davisSerial.py
 ```
 
 Saved model for BindingDB:
-- https://drive.google.com/file/d/1QPzeAybT-Tp9OB46AKIBKx7yWKj9eURI/view?usp=sharing
+- https://drive.google.com/file/d/1GC5f1A9CsORmLwy4oXgEjcnx0YJsYTFK/view?usp=sharing
 - unzip BindingDB_repr.zip
 - mv BindingDB_repr ./saved_pth
 
