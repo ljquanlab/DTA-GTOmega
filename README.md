@@ -20,7 +20,7 @@ Davis_omega: Node features + edges features (40 GB)
 - https://pan.baidu.com/s/1BBbETPfRAmr6c4QY8waLJA
 - password: CUTE
 
-File size can be reduced to less than 1GB by removing edge features if your device does not has this size of memory, the following is jupyter code
+We utilized the complete file to run our experiments, however file size can be reduced to less than 1GB by removing edge features if your device does not has this size of memory, the following are jupyter codes.
 ```commandline
 !unzip Davis_omega
 import pickle as pkl
