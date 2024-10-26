@@ -16,11 +16,10 @@ mkdir data/Davis_omega
 Then please check https://github.com/yelujiang/OmegaFeatures to generate features.
 Or we upload the preprocessed features to the drive. 
 
-Davis_omega: Node features + edges features (40 GB), here edges features are not needed in this paper.(However, if someone need.)
-- https://pan.baidu.com/s/1BBbETPfRAmr6c4QY8waLJA
+Davis_omega: Node features + edges features (40 GB)
 - password: CUTE
 
-File size can be reduced to less than 1GB by removing edge features, the following is jupyter code
+File size can be reduced to less than 1GB by removing edge features if your device does not has this size of memory, the following is jupyter code
 ```commandline
 !unzip Davis_omega
 import pickle as pkl
