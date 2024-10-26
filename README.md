@@ -50,6 +50,11 @@ KIBA_omega: Node features + edges features (23 GB), here edges features are not 
 Please Check config/Environment.ipynb
 
 # Reproduction
+
+Note that we repeatedly run each experiment for about 50 to 80 times to obtain the results.
+
+We provide 5-15 trained models to reproduce the results.
+
 1. Change the 'split_strategy' in the following scripts to reproduce the results.
 
 2. Saved model for davis have been uploaded in saved_pth/Davis_repr
