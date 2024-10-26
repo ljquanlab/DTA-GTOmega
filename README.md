@@ -17,6 +17,7 @@ Then please check https://github.com/yelujiang/OmegaFeatures to generate feature
 Or we upload the preprocessed features to the drive. 
 
 Davis_omega: Node features + edges features (40 GB)
+- https://pan.baidu.com/s/1BBbETPfRAmr6c4QY8waLJA
 - password: CUTE
 
 File size can be reduced to less than 1GB by removing edge features if your device does not has this size of memory, the following is jupyter code
