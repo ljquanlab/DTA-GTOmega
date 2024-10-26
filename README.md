@@ -16,7 +16,7 @@ mkdir data/Davis_omega
 Then please check https://github.com/yelujiang/OmegaFeatures to generate features.
 Or we upload the preprocessed features to the drive. 
 
-Davis_omega: Node features + edges features (40 GB), here edges features are not needed
+Davis_omega: Node features + edges features (40 GB), here edges features are not needed in this paper.(However, if someone need.)
 - https://pan.baidu.com/s/1BBbETPfRAmr6c4QY8waLJA
 - password: CUTE
 
@@ -34,7 +34,7 @@ for fi in os.listdir('./'):
     pkl.dump(o, f)
 ```
 
-BindingDB_omega: Only Node features (390 MB)
+BindingDB_omega: Only Node features (390 MB). (Since the edge features needs about >200GB. We cannot save it.)
 - https://drive.google.com/file/d/1yJohLt2_Fot9IwzLJYpL5TI4cQ3-q2z3/view?usp=drive_link
 
 KIBA_omega: Node features + edges features (23 GB), here edges features are not needed
@@ -43,7 +43,7 @@ KIBA_omega: Node features + edges features (23 GB), here edges features are not 
 
 # Environment
 - cuda:12.2
-- memory > 50G
+- memory > 50G (You can avoid such large memory requirements by reducing the file size as mentioned above.)
 - device: Tesla V100 32GB/ Tesla A100 40GB
 
 # Package
