@@ -14,7 +14,7 @@ mkdir data/Davis_omega
 ```
 
 Then please check https://github.com/yelujiang/OmegaFeatures to generate features.
-Or we upload the preprocessed features to the drive. Download move them into ./data folder. 
+Or we upload the preprocessed features to the drive. Download move them into ./data folder. Please check ./data/path.png to see the an example.
 
 
 
