@@ -36,7 +36,7 @@ for fi in os.listdir('./'):
 BindingDB_omega: Only Node features (390 MB). (Since the edge features needs about >200GB. We cannot save it.)
 - https://drive.google.com/file/d/1yJohLt2_Fot9IwzLJYpL5TI4cQ3-q2z3/view?usp=drive_link
 
-KIBA_omega: Node features + edges features (23 GB), here edges features are not needed
+KIBA_omega: Node features + edges features (23 GB)
 - https://pan.baidu.com/s/1j-P8-AFt2jh92-QjwMiVgA
 - password: CUTE
 
