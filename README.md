@@ -51,7 +51,7 @@ Please Check config/Environment.ipynb
 
 # Reproduction
 
-Note that we repeatedly run each experiment for about 50 to 80 times to obtain the results.
+Note that we repeatedly run each experiment for about 50 to 80 times.
 
 We provide 5-15 trained models to reproduce the results.
 
