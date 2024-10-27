@@ -36,6 +36,20 @@ for fi in os.listdir('./'):
     pkl.dump(o, f)
 ```
 
+Then you should modify the code in Dataloader.DatasetDefination in line 366 and line 395:
+
+```commandline
+if dataset != 'DrugBank' and dataset != 'BindingDB' and dataset != 'Davis':
+```
+
+```commandline
+# 366
+if dataset != 'DrugBank' and dataset != 'BindingDB' and dataset != 'Davis':
+
+# 395
+if dataset == 'DrugBank' or dataset == 'BindingDB' or dataset=='Davis':
+```
+
 BindingDB_omega: Only Node features (390 MB). (Since the edge features needs about >200GB. We cannot save it.)
 - https://drive.google.com/file/d/1yJohLt2_Fot9IwzLJYpL5TI4cQ3-q2z3/view?usp=drive_link
 
