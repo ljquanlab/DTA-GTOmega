@@ -53,9 +53,7 @@ Please Check config/Environment.ipynb
 
 # Reproduction
 
-Note that we repeatedly run each experiment for about 50 to 80 times.
-
-We provide 5-15 trained models to reproduce the results.
+We provide 5-15 trained models for reproduction.
 
 1. Change the 'split_strategy' in the following scripts to reproduce the results.
 
