@@ -39,10 +39,6 @@ for fi in os.listdir('./'):
 Then you should modify the code in Dataloader.DatasetDefination in line 366 and line 395:
 
 ```commandline
-if dataset != 'DrugBank' and dataset != 'BindingDB' and dataset != 'Davis':
-```
-
-```commandline
 # 366
 if dataset != 'DrugBank' and dataset != 'BindingDB' and dataset != 'Davis':
 
